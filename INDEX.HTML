@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        *{
+        
+    padding: 2px;
+    margin: 2px;
+}
+
+.fisrt {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(45, 3, 112, 0.774);
+    margin: 20px;
+    padding: 20px;
+}
+
+.box {
+    
+    width: 48%; 
+}
+.navbar{
+    font-weight: 900;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+button{
+    background-color: plum;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:beige
+}
+#box1{
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+#box2{
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+.navbar{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: small;
+}
+#nav1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: rgba(128,0,128,0.7);
+    margin-left: 10px;
+}
+
+h1{
+    color: rgba(128,0,128,0.7);
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <div class="fisrt">
+        <div class="box"  id="box1">
+            <table>
+                <tr><div class="navbar">
+                    <div>HOME</div>
+                    <div>BLOG</div>
+                    <div>ABOUT</div>
+                </div></tr>
+                <br>
+                <tr >
+                    <h1 id="hid1">JUST SAY HELLO!</h1><br>
+                    <h2>JUST LET US KNOW MORE ABOUT YOU!</h2>
+                </tr>
+                <tr><div id="forms">
+                    <form >
+                        <table><tr><td>
+                        <input type="text" class="namebox" placeholder="FIRST NAME" ></td><td>
+                        <input type="text" class="namebox" placeholder="LAST NAME" width="10%"></td>
+                        
+                            </tr>
+                            <tr><td>
+                        <input type="email" id="emailb" placeholder="EMAIL"width="30%"></td>
+                        <td><input type="number" id="no" placeholder="CONTACT"width="30%"></td>
+                        </tr>
+                        <tr><td>
+                        <textarea  placeholder="MESSAGE" width="30%" ></textarea></td>
+                    </tr>
+                </div>
+                    </table>
+                        <button id="button">SUBMIT</button>
+
+                    </form>
+                </tr>
+                
+                </table>
+            </div>
+
+            <div class="box" id="box2">
+                <table>
+                
+                    <div class="navbar" id="nav1">CONTACT</div>
+                <br>
+                <tr>
+                    <h1>CONTACT<br>INFORMATION</h1>
+                    <h2>CSED,MNNIT ALLAHABAD<br>PRAYAGRAJ - 211004</h2>
+                    <br>
+                    <br>
+                    <h2>CALL US: +91-4794685713</h2>
+                </tr>
+                <tr>
+                    <h1>FOLLOW US</h1>
+                    <input type="image" src="">
+                    <input type="image" src="">
+                    <input type="image" src="">
+                    
+                </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
